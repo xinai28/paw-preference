@@ -176,7 +176,7 @@ export function CatCard({ cat, onLike, onDislike }: Props) {
 
         {/* Swipe instruction */}
         <div className="text-center mt-4 text-gray-700 font-semibold">
-          👈 SWIPE <span className="text-red-500 font-bold">LEFT</span> TO <span className="text-red-500 font-bold">DISLIKE</span>,{' '}
+          👈 SWIPE <span className="text-blue-700 font-bold">LEFT</span> TO <span className="text-blue-700 font-bold">DISLIKE</span>,{' '}
           <span className="text-green-500 font-bold">RIGHT</span> TO <span className="text-green-500 font-bold">LIKE</span> 👉
         </div>
       </div>
